@@ -4,6 +4,7 @@ from db import database
 from managers.user import UserManager
 from models import RoleType
 
+
 @click.command()
 @click.option("-f", "--first_name", type=str, required=True)
 @click.option("-l", "--last_name", type=str, required=True)
